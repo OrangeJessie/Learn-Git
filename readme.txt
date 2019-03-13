@@ -7,3 +7,5 @@ git init					# init your git repository
 git add name_of_your_file			# add your file to git repository
 git commit -m "tips of this modify"		# add tips of modify
 
+git status					# get current status
+git diff					# 
