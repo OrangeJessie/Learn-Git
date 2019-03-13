@@ -45,4 +45,7 @@ git branch				# show all branch
 git merge dev				# merge two branch
 git branch -d dev				# deleted branch dev
 
-this is a train
+git log --gragh --pretty=oneline --abbrev-commit			# show history
+
+
+git stash					# store workplace
