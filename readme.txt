@@ -33,3 +33,12 @@ git remote add origin https://github.com/OrangeJessie/Learn-Git.git		# local ass
 
 git push -u  origin master			# upload master to github, the first time use -u
 git push origin master			# upload new version
+
+git clone git@github.com:OrangeJessie/repository_name.git		# clone from github, make a repository offline
+
+
+git checkout -b dev				# make and switch to a new branck "dev"
+git branch dev				# make a new branch
+git checkout dev				# switch to this branch
+
+git branch				# show all branch
