@@ -42,3 +42,7 @@ git branch dev				# make a new branch
 git checkout dev				# switch to this branch
 
 git branch				# show all branch
+git merge dev				# merge two branch
+git branch -d dev				# deleted branch dev
+
+this is a test
