@@ -36,6 +36,14 @@ git push origin master			# upload new version
 
 git clone git@github.com:OrangeJessie/repository_name.git		# clone from github, make a repository offline
 
+git remote				# show info in github
+git remote -v				# more detail
+
+git push origin master			# push local repository
+git pull					# get new version from github
+git branch --set-upstream-to <branch-name> origin/<branch-name>	# if cannot pull
+
+
 
 git checkout -b dev				# make and switch to a new branck "dev"
 git branch dev				# make a new branch
