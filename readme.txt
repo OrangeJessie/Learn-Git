@@ -43,9 +43,13 @@ git checkout dev				# switch to this branch
 
 git branch				# show all branch
 git merge dev				# merge two branch
+git merge --no-ff -m "tips" dev		# merge with no fast and make new commit
 git branch -d dev				# deleted branch dev
 
 git log --gragh --pretty=oneline --abbrev-commit			# show history
 
 
 git stash					# store workplace
+git stash list				# show all stash
+git stash apply				# restore workplace in stash
+git stash pop				# restore workplace in stash and delect stash
